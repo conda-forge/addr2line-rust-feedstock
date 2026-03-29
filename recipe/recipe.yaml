@@ -1,14 +1,14 @@
 context:
   name: addr2line-rust
-  version: "0.26.0"
+  version: "0.26.1"
 
 package:
   name: ${{ name|lower }}
   version: ${{ version }}
 
 source:
-  url: https://github.com/gimli-rs/addr2line/archive/refs/tags/${{ version }}.tar.gz
-  sha256: fff87520e31c0c5953ff347700a389aac1e564672540fe398b839666a628ed92
+  url: https://github.com/gimli-rs/addr2line/archive/refs/tags/v${{ version }}.tar.gz
+  sha256: b8c510ecce2c426fe476f33fbce4bf75dd0e2c5800ae94a9868d8a957483e5e7
 
 build:
   number: 0
